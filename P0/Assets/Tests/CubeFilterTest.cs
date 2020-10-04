@@ -17,7 +17,7 @@ namespace Tests
 
             foreach (var o in output)
             {
-                Debug.Log(o);
+                //Debug.Log(o);
             }
 
             CollectionAssert.AreEqual(expected, output);
